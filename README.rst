@@ -196,7 +196,7 @@ need is Python 3 and the ``--nonlatin`` option...
      ࡅ("Forming...")
      녂=רּ("epicaricacy","perseverate")
      녂.𨠅("Codswallop")
-    # Created by pyminifier.py (https://github.com/liftoff/pyminifier)
+     
 
 Yes, that code actually works *but only using Python 3*.  This is because Python
 3 supports coding in languages that use non-latin character sets.

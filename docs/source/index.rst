@@ -162,7 +162,6 @@ code to stdout:
      print("Forming...")
      f=Foo("epicaricacy","perseverate")
      f.test("Codswallop")
-    # Created by pyminifier.py (https://github.com/liftoff/pyminifier)
 
 This reduced the size of tumult.py from 1358 bytes to 640 bytes.  Not bad!
 
@@ -200,7 +199,7 @@ names of things like variables and functions to the smallest possible size:
      q("Forming...")
      f=U("epicaricacy","perseverate")
      f.test("Codswallop")
-    # Created by pyminifier.py (https://github.com/liftoff/pyminifier)
+     
 
 That's all fine and good but pyminifier can go the extra mile and also
 *compress* your code using gzip, bz2, or even lzma using a special container:
@@ -211,7 +210,7 @@ That's all fine and good but pyminifier can go the extra mile and also
     #!/usr/bin/env python3
     import zlib, base64
     exec(zlib.decompress(base64.b64decode('eJx1kcFOwzAMhu95ClMO66apu0/KAQEbE5eJC+IUpa27haVJ5Ljb+vakLYJx4JAoiT/7/+3c3626SKvSuBW6M4Sej96Jq9y1wRM/E3kSexnIOBZObrSNKI7Sl59YsWDq1wLMiEKNrenoYCqB1woDwzXF9nn2rskZd1jDh+9mhOD8DVvAQ8WdtrZfwg74aNwp7ZpnMXHUaltk878ybR/ZNKbSjP8JPWk6wdn72ntodQ8lQucIrdGlxaHgq3QgKqtjhCY/zlN6jQ0oZZxhpfKItlkuNB3icrE4XYbDwEBICRP6NjG1rri3YyzK356CtsGwZuNd/o0kYitvrBd18qgmj3kcwoTckYPtJPAyCVzSKPCMNErs85+rMINdp1tUSspMqVYbp1Q2DWKTJpcGURRDr9DIJs8wJFlKq+qzZRaQ4lAnVRuJgjFynj36Ol7SX/iQXr8ANfezCw==')))
-    # Created by pyminifier.py (https://github.com/liftoff/pyminifier)
+     
 
 That created a 572 byte file...  Not much saved over basic minification
 which producted a 640 byte file.  This is because the input file was so small
@@ -407,7 +406,7 @@ pyminifier.pyz by re-minifying tumult.py...
      print("Forming...")
      f=Foo("epicaricacy","perseverate")
      f.test("Codswallop")
-    # Created by pyminifier.py (https://github.com/liftoff/pyminifier)
+     
 
 It works!
 
@@ -446,7 +445,7 @@ need is Python 3 and the ``--nonlatin`` option...
      ࡅ("Forming...")
      녂=רּ("epicaricacy","perseverate")
      녂.𨠅("Codswallop")
-    # Created by pyminifier.py (https://github.com/liftoff/pyminifier)
+     
 
 Yes, that code actually works *but only using Python 3*.  This is because Python
 3 supports coding in languages that use non-latin character sets.
@@ -493,7 +492,6 @@ minimize the amount of characters used for replacements let's make them HUGE:
      ﺭ异𞸐𐤔ﭞﰣﺁں𝕌𨿩𞸇뻛𐬑𥰫嬭ﱌ𢽁𐡆𧪮Ꝫﴹ뙫𢤴퉊ﳦﲣפּܟﺶ𐐤ﶨࠔ𐰷𢡶𧐎𐭈𞸏𢢘𦘼ﶻ𩏃𦽨𞺎𠛘𐠲䉊ﰸﭳᣲ燱("Forming...")
      ﺭ异𞸐𐤔ﭞﰣﺁں𝕌𨿩𞸇뻛𐬑𥰫嬭ﱌ𢽁𐡆𧪮Ꝫﴹ뙫𢤴퉊ﳦﲣפּܟﺶ𐐤ﶨࠔ𐰷𢡶𧐎𐭈𞸏𢢘𦘼ﶻ𩏃𦽨𞺎𠛘𐠲䉊ﰸﭳᣲﺃ=ﺭ异𞸐𐤔ﭞﰣﺁں𝕌𨿩𞸇뻛𐬑𥰫嬭ﱌ𢽁𐡆𧪮Ꝫﴹ뙫𢤴퉊ﳦﲣפּܟﺶ𐐤ﶨࠔ𐰷𢡶𧐎𐭈𞸏𢢘𦘼ﶻ𩏃𦽨𞺎𠛘𐠲䉊ﰸﭳᣲ𐦚("epicaricacy","perseverate")
      ﺭ异𞸐𐤔ﭞﰣﺁں𝕌𨿩𞸇뻛𐬑𥰫嬭ﱌ𢽁𐡆𧪮Ꝫﴹ뙫𢤴퉊ﳦﲣפּܟﺶ𐐤ﶨࠔ𐰷𢡶𧐎𐭈𞸏𢢘𦘼ﶻ𩏃𦽨𞺎𠛘𐠲䉊ﰸﭳᣲﺃ.ﺭ异𞸐𐤔ﭞﰣﺁں𝕌𨿩𞸇뻛𐬑𥰫嬭ﱌ𢽁𐡆𧪮Ꝫﴹ뙫𢤴퉊ﳦﲣפּܟﺶ𐐤ﶨࠔ𐰷𢡶𧐎𐭈𞸏𢢘𦘼ﶻ𩏃𦽨𞺎𠛘𐠲䉊ﰸﭳᣲ𐠯("Codswallop")
-    # Created by pyminifier (https://github.com/liftoff/pyminifier)
 
 Indices and tables
 ==================

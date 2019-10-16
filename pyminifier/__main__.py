@@ -25,6 +25,12 @@ def main():
     parser = OptionParser(usage=usage, version=__version__)
     parser.disable_interspersed_args()
     parser.add_option(
+        "--save",
+        action="store_true",
+        default=False,
+        help="save file."
+    )
+    parser.add_option(
         "-o", "--outfile",
         dest="outfile",
         default=None,

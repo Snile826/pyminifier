@@ -195,7 +195,7 @@ def pyminify(options, files):
     # obfuscation is stated)
     if options.use_nonlatin and not any(obfuscations):
         options.obfuscate = True
-    if len(files) > 1: # We're dealing with more than one file
+    if options.save: # We're dealing with more than one file
         name_generator = None # So we can tell if we need to obfuscate
         if any(obfuscations):
             # Put together that will be used for all obfuscation functions:
